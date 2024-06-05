@@ -1,0 +1,11 @@
+#!/bin/bash
+#nvm install --latest
+#npm i
+#npm run build
+
+composer update
+
+
+supervisord
+
+exit 2
